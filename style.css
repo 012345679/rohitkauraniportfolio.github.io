@@ -167,19 +167,39 @@ section h2 {
 
 
 /* TOOLS */
-.tools p {
-    text-align: center;
-    max-width: 800px;
+.tools-grid {
+    max-width: 1000px;
     margin: auto;
-    color: #cbd5e1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
 }
 
-/* CONTACT */
-.contact p {
-    text-align: center;
-    margin-bottom: 10px;
-    color: #cbd5e1;
+.tool-category {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #334155;
+    transition: 0.3s ease;
 }
+
+.tool-category:hover {
+    transform: translateY(-5px);
+    border-color: #38bdf8;
+}
+
+.tool-category h3 {
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: #38bdf8;
+}
+
+.tool-category p {
+    color: #cbd5e1;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
 
 /* FOOTER */
 footer {
