@@ -201,73 +201,46 @@ section h2 {
 }
 /* CONTACT SECTION */
 
-.contact {
-    background: linear-gradient(135deg, #0f172a, #1e293b);
-    padding: 80px 8%;
-    text-align: center;
-}
-
-.contact h2 {
-    font-size: 32px;
-    color: #38bdf8;
-    margin-bottom: 50px;
-}
-
-.contact-container {
-    max-width: 900px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-
-.contact-card {
-    background: #1e293b;
-    padding: 35px;
-    border-radius: 15px;
-    border: 1px solid #334155;
-    transition: 0.3s ease;
-}
-
-.contact-card:hover {
-    transform: translateY(-5px);
-    border-color: #38bdf8;
-}
-
-.contact-card h3 {
-    margin-bottom: 15px;
-    color: #ffffff;
-}
-
-.contact-card p {
-    color: #cbd5e1;
-    margin-bottom: 25px;
-}
-
 .contact-buttons {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 25px;
+    margin-top: 25px;
     flex-wrap: wrap;
 }
 
 .contact-btn {
-    padding: 10px 20px;
-    background: #38bdf8;
-    color: #0f172a;
-    text-decoration: none;
-    border-radius: 25px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 28px;
+    border-radius: 40px;
     font-weight: 600;
-    transition: 0.3s ease;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    min-width: 150px;
 }
 
-.contact-btn:hover {
-    background: #0ea5e9;
-    transform: scale(1.05);
+/* Email Button */
+.email-btn {
+    background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+    color: #0f172a;
 }
 
-.contact-info p {
-    color: #94a3b8;
+.email-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(56,189,248,0.4);
+}
+
+/* WhatsApp Button */
+.whatsapp-btn {
+    background: linear-gradient(135deg, #25D366, #1ebe5d);
+    color: #ffffff;
+}
+
+.whatsapp-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(37,211,102,0.4);
 }
 
 
